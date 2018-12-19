@@ -1,2 +1,5 @@
 /**app.wxss**/
 
+/**引入微信UI样式 wxss样式文件**/
+@import "assets/css/weui.wxss";
+
