@@ -1,12 +1,45 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/family/family",
+    "pages/clan/clan",
+    "pages/user/user",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#dc3731",
+    "navigationBarTitleText": "夲家",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#dc3731",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/images/home_one.png",
+        "selectedIconPath": "assets/images/home.png"
+      },
+      {
+        "pagePath": "pages/family/family",
+        "text": "族谱",
+        "iconPath": "assets/images/book_one.png",
+        "selectedIconPath": "assets/images/book.png"
+      },
+      {
+        "pagePath": "pages/clan/clan",
+        "text": "宗亲",
+        "iconPath": "assets/images/serve_one.png",
+        "selectedIconPath": "assets/images/serve.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "assets/images/person_one.png",
+        "selectedIconPath": "assets/images/person.png"
+      }
+    ]
   }
 }
